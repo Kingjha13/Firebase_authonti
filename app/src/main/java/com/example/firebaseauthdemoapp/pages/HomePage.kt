@@ -34,7 +34,7 @@ fun HomePage(modifier: Modifier = Modifier, navController: NavController, authVi
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Home Page", fontSize = 32.sp)
+        Text(text = "Welcom in this app now very happy you visit my app.", fontSize = 32.sp,color=Color.Red)
 
         TextButton(onClick = {
             authViewModel.signout()
